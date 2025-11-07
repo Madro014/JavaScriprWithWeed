@@ -1,0 +1,12 @@
+google-generativeai
+uvicorn
+requests
+fastapi
+sqlalchemy
+pydantic
+argon2-cffi
+python-jose[cryptography]
+pymysql
+python-multipart
+
+python -m uvicorn main:app --reload
